@@ -79,27 +79,17 @@ div#slider figure {
             </div>
             <div id="navMenu" class="navbar-menu " style="padding: 0px;">
                 <div class="navbar-end">
-                    <a href="#" class="navbar-item is-active" style="color: orange; background-color: black;">Home</a>
+                    <a href="https://giadaanastasi.github.io/eteam_website/index.html" class="navbar-item is-active" style="color: orange; background-color: black;">Home</a>
                     <a href="#" class="navbar-item" style="color: orange;background-color: black;">Team</a>
                     <a href="#" class="navbar-item" style="color: orange;background-color: black;">Storia</a>
-                    <a href="autovettura.html" class="navbar-item" style="color: orange;background-color: black;">Autovettura</a>
+                    <a href="#" class="navbar-item" style="color: orange;background-color: black;">Autovettura</a>
                     <a href="#" class="navbar-item" style="color: orange;background-color: black;">Sponsor</a>
-                    <a href="login.php" class="navbar-item" style="color: orange;background-color: black;">Area Membri</a>
-                    <a href="index_en.html" class="navbar-item" style="color: orange;background-color: black;">ENG</a>
+                    <a href="#" class="navbar-item" style="color: orange;background-color: black;">Area Membri</a>
+                    <a href="https://giadaanastasi.github.io/eteam_website/index_en.html" class="navbar-item" style="color: orange;background-color: black;">ENG</a>
                 </div>
             </div>
         </div>
     </nav>
-    <section class="section container hero" style="padding: 0px;">
-  <div id="slider">
-    <figure>
-      <img src="https://giadaanastasi.github.io/eteam_website/rettore.jpg" alt>
-      <img src="https://giadaanastasi.github.io/eteam_website/kerublast.jpg" alt>
-      <img src="https://giadaanastasi.github.io/eteam_website/rettore.jpg" alt>
-      <img src="https://giadaanastasi.github.io/eteam_website/kerublast.jpg" alt>
-      </figure>
-  </div>
-</section>
 
     <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
     <script>
@@ -113,32 +103,26 @@ div#slider figure {
         });
     })();
     </script>
-    <center>
-    <section  class="section container hero" style="padding: 0px;">
-        <h1 style="color: orange;">E-TEAM SQUADRA CORSE</h1>
-    <p style="color: white; font-size: 24px; line-height:1.5; margin-bottom: 10px;">L'E-Team è la squadra che rappresenta l'Università di Pisa nelle competizioni di Formula SAE e Formula Student in Italia e in Europa. 
-        Nata nel 2007, conta oggi più di 80 membri provenienti da oltre 15 diverse facoltà.</p>
-    </section>
-    <footer>
-        <p style="color: white;">Seguici sui nostri profili social: </p>
-        <span class="icon is-large has-text-white">
-            <i class="fab fa-facebook-f"></i>
-          </span>
-          <span class="icon is-large has-text-white">
-            <i class="fab fa-instagram"></i>
-          </span>
-          <span class="icon is-large has-text-white">
-            <i class="fab fa-youtube"></i>
-          </span>
-          <span class="icon is-large has-text-white">
-            <i class="fab fa-twitter"></i>
-          </span>
-          <span class="icon is-large has-text-white">
-            <i class="fab fa-linkedin-in"></i>
-          </span>
-    </footer>
-</center>
+    <div class="field">
+        <p class="control has-icons-left has-icons-right">
+            <input class="input" type="email" placeholder="Email">
+            <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+            </span>
+        </p>
+    </div>
+    <div class="field">
+        <p class="control has-icons-left">
+            <input class="input" type="password" placeholder="Password">
+            <span class="icon is-small is-left">
+                <i class="fas fa-lock"></i>
+            </span>
+        </p>
+    </div>
     
-
+    
 </body>
 </html>
