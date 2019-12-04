@@ -1,3 +1,38 @@
+<?php
+   use Zend\Form\Form;
+
+   class UserForm extends Form {
+     function __construct($name = null){
+       parent::__construct('application');
+       $this->setAttribute('method', 'POST');
+       $this->add([
+         'name'->'id';
+         'type'->'hidden';
+       ]);
+       $this->add([
+         'name' -> 'username';
+         'type' -> 'text';
+         'options' -> [
+            'label' -> 'Username';
+          ]
+         ]);
+         $this->add([
+          'name' -> 'email';
+          'type' -> 'Zend\Form\Element\Email';
+          'options' -> [
+             'label' -> 'Email';
+           ]
+          ]);
+          $this->add([
+            'name' -> 'password';
+            'type' -> 'password';
+            'options' -> [
+               'lable' -> 'Password';
+             ]
+            ]);
+     }
+   }
+?>
 <!DOCTYPE html>
 <html lang='en'>
 <head>
