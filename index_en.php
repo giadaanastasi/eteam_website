@@ -33,7 +33,7 @@
   <div class="hero-head" style="background-color: hsl(0, 0%, 21%)">
   <div class="container has-text-centered" style="background-color: hsl(0, 0%, 21%)">
     <div class="columns is-mobile">
-    <div class="column is-one-quarter has-text-left"><img src="uploads/unipi_white.png"></div>
+    <div class="column is-one-quarter has-text-left"><img src="uploads/unipi_white.png" alt="logo unipi"></div>
     <div class="column is-three-quarter">
       <nav class="navbar" style="background-color: hsl(0, 0%, 21%)">
         <div class="container">
@@ -87,7 +87,7 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-body" style="background-color: hsl(0, 0%, 21%)">
     <div class="container has-text-centered">
-      <img src="uploads/LogoEteam.png" >
+      <img src="uploads/LogoEteam.png" alt="logo eteam">
     </div>
   </div>
   <?php 
@@ -98,7 +98,7 @@
       
         echo '<div class="column">';
         foreach($images as $image){
-          echo '<img src="'.$image.'" /></div>';
+          echo '<img src="'.$image.'" alt="background"/></div>';
         echo '</div></div>';
         }
         
@@ -126,7 +126,7 @@
             echo '<div class="hero-body"></div> ';
     
             echo '<div class="hero-foot" style ="margin-bottom: 10em;"> <div class="container">';
-            echo '<button class="button is-dark is-large is-fullwidth" ><a href="contact_en.php"> CONTATTACI </a> </button>';
+            echo '<button class="button is-dark is-large is-fullwidth" ><a href="contact_en.php"> CONTACT US </a> </button>';
             echo '</div>';
             echo '</div></section>';
         }         

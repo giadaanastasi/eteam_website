@@ -31,7 +31,7 @@
 
   <div class="container has-text-centered">
     <div class="columns is-mobile">
-    <div class="column is-one-quarter has-text-left"><img src="uploads/unipi_white.png"></div>
+    <div class="column is-one-quarter has-text-left"><img src="uploads/unipi_white.png" alt="logo unipi"></div>
     <div class="column is-three-quarter">
       <nav class="navbar" style="background-color: hsl(0, 0%, 21%)">
         <div class="container">
@@ -87,7 +87,7 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-body" style="background-color: hsl(0, 0%, 21%)">
     <div class="container has-text-centered">
-      <img src="uploads/LogoEteam.png" >
+      <img src="uploads/LogoEteam.png" alt="logo eteam">
     </div>
   </div>
 <div class="hero-body">

@@ -32,7 +32,7 @@ require_once "config.php";
 
 <div class="container has-text-centered">
   <div class="columns is-mobile">
-    <div class="column is-one-quarter has-text-left"><img src="uploads/unipi_white.png"></div>
+    <div class="column is-one-quarter has-text-left"><img src="uploads/unipi_white.png" alt="Logo unipi"></div>
     <div class="column is-three-quarter">
       <nav class="navbar" style="background-color: hsl(0, 0%, 21%)">
         <div class="container">
@@ -86,7 +86,7 @@ require_once "config.php";
       <!-- Hero content: will be in the middle -->
       <div class="hero-body" style="background-color: hsl(0, 0%, 21%)" >
     <div class="container has-text-centered" >
-      <img src="uploads/LogoEteam.png" >
+      <img src="uploads/LogoEteam.png" alt="Logo eteam">
     </div>
   </div>
 
@@ -104,7 +104,7 @@ require_once "config.php";
                   echo'<div class="tile is-ancestor">';
                     echo '<div class="tile is-parent is-8">';
                       echo '<article class="tile is-child box">';
-                        echo '<img src="'.$image.'" />';
+                        echo '<img src="'.$image.'" alt="car_'.$image.'"/>';
                       echo '</article>';
                     echo '</div>';
                     echo '<div class="tile is-parent">';
@@ -126,7 +126,7 @@ require_once "config.php";
                   echo '<div class="tile is-ancestor">';
                     echo'<div class="tile is-parent">';
                       echo '<article class="tile is-child box">';
-                        echo '<img src="'.$image.'" />';
+                        echo '<img src="'.$image.'" alt="car_"'.$image.'/>';
                       echo '</article>';
                     echo '</div>';
                     echo '<div class="tile is-parent is-8">';

@@ -61,7 +61,7 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered">
-      <img src="uploads/LogoEteam.png" >
+      <img src="uploads/LogoEteam.png" alt="logo eteam">
     </div>
   </div>
   
@@ -218,7 +218,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
 <div class="hero-body">
     <div class="container has-text-centered">
-        <img src="uploads/settings.png">
+        <img src="uploads/settings.png" alt="settings">
         <h1> STILL WORKING ON THIS </h1>
     </div> 
     </div>   

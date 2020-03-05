@@ -32,7 +32,7 @@
   <div class="hero-head" style="background-color: hsl(0, 0%, 21%)">
   <div class="container has-text-centered">
     <div class="columns is-mobile">
-    <div class="column is-one-quarter has-text-left"><img src="uploads/unipi_white.png"></div>
+    <div class="column is-one-quarter has-text-left"><img src="uploads/unipi_white.png" alt="logo unipi"></div>
     <div class="column is-three-quarter">
       <nav class="navbar" style="background-color: hsl(0, 0%, 21%)">
         <div class="container">
@@ -87,7 +87,7 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-body" style="background-color: hsl(0, 0%, 21%)">
     <div class="container has-text-centered">
-      <img src="uploads/LogoEteam.png" >
+      <img src="uploads/LogoEteam.png" alt="logo eteam" >
     </div>
   </div>
 
@@ -107,7 +107,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white; margin-left:auto; margin-right:auto;">';
@@ -122,7 +122,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-one-quarter" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -140,7 +140,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;margin-left:auto; margin-right:auto;">';
@@ -154,7 +154,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-one-quarter" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -172,7 +172,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -186,7 +186,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-one-quarter" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -204,7 +204,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -218,7 +218,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-one-quarter" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -236,7 +236,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half " style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -250,7 +250,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-one-quarter" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -268,7 +268,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -286,7 +286,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half " style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -300,7 +300,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-one-quarter" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -318,7 +318,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -337,7 +337,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half " style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -351,7 +351,7 @@
             foreach($images as $image) {
               $i = $i + 1;
               echo '<div class="column is-one-quarter" style="margin-left:auto; margin-right:auto;">';
-              echo '<img src="'.$image.'" />';
+              echo '<img alt="member photo" src="'.$image.'" />';
               echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
               if($i%4==0){
                 echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -369,7 +369,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half " style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -383,7 +383,7 @@
             foreach($images as $image) {
               $i = $i + 1;
               echo '<div class="column is-one-quarter" style="margin-left:auto; margin-right:auto;">';
-              echo '<img src="'.$image.'" />';
+              echo '<img alt="member photo" src="'.$image.'" />';
               echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
               if($i%4==0){
                 echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -401,7 +401,7 @@
             foreach($images as $image) {
               $i = $i + 1;
               echo '<div class="column is-half" style="margin-left:auto; margin-right:auto;">';
-              echo '<img src="'.$image.'" />';
+              echo '<img alt="member photo" src="'.$image.'" />';
               echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
               if($i%4==0){
                 echo '</div></div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
@@ -419,7 +419,7 @@
               foreach($images as $image) {
                 $i = $i + 1;
                 echo '<div class="column is-half" style="margin-left:auto; margin-right:auto;">';
-                echo '<img src="'.$image.'" />';
+                echo '<img alt="member photo" src="'.$image.'" />';
                 echo '<p class ="subtitle" style ="color: black">'.explode(".", str_replace("_", " ", explode("/", $image)[5]))[0].'</p></div>';
                 if($i%4==0){
                   echo '</div><div class="tile is-ancestor has-text-centered" style="background-color: white;">';
